@@ -6,12 +6,6 @@ message(STATUS "OpenCL found: ${OPENCL_FOUND}")
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(simple_image ch06/simple_image.c)
-target_link_libraries(simple_image ${OpenCL_LIBRARIES} -lpng)
-
-add_executable(profile_items ch07/profile_items/profile_items.c)
-target_link_libraries(profile_items ${OpenCL_LIBRARIES} -lpng)
-
 add_executable(map_copy ch03/map_copy/map_copy.c)
 target_link_libraries(map_copy ${OpenCL_LIBRARIES})
 
@@ -50,3 +44,12 @@ target_link_libraries(shuffle_test ${OpenCL_LIBRARIES})
 
 add_executable(select_test ch05/select_test/select_test.c)
 target_link_libraries(select_test ${OpenCL_LIBRARIES})
+
+add_executable(profile_read ch07/profile_read/profile_read.c)
+target_link_libraries(profile_read ${OpenCL_LIBRARIES})
+
+add_executable(profile_items ch07/profile_items/profile_items.c)
+target_link_libraries(profile_items ${OpenCL_LIBRARIES})
+
+add_executable(atomic ch07/atomic/atomic.c)
+target_link_libraries(atomic ${OpenCL_LIBRARIES})
