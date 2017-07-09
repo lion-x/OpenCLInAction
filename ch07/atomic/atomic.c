@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch07/atomic/atomic.cl"
 #define KERNEL_FUNC "atomic"
-#define MAC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

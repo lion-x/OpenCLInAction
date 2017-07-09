@@ -3,7 +3,7 @@
 
 #define PROGRAM_FILE "../ch05/polar_rect/polar_rect.cl"
 #define KERNEL_FUNC "polar_rect"
-#define MAC
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

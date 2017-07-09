@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch05/op_test/op_test.cl"
 #define KERNEL_FUNC "op_test"
-#define MAC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

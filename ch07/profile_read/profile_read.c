@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch07/profile_read/profile_read.cl"
 #define KERNEL_FUNC "profile_read"
-#define MAC
+
 #define NUM_BYTES 131072
 #define NUM_ITERATIONS 2000
 #define PROFILE_READ 1

@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch03/map_copy/blank.cl"
 #define KERNEL_FUNC "blank"
-#define MAC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>

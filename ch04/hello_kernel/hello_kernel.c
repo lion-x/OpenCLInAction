@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch04/hello_kernel/hello_kernel.cl"
 #define KERNEL_FUNC "hello_kernel"
-#define MAC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

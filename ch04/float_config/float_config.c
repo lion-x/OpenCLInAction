@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAC
+
 #ifdef MAC
 #include <OpenCL/cl.h>
 #else

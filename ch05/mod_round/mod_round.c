@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch05/mod_round/mod_round.cl"
 #define KERNEL_FUNC "mod_round"
-#define MAC
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

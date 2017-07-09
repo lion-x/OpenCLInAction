@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define PROGRAM_FILE "../ch07/profile_items/profile_items.cl"
 #define KERNEL_FUNC "profile_items"
-#define MAC
 
 #define NUM_INTS 4096
 #define NUM_ITEMS 1024
