@@ -53,3 +53,12 @@ target_link_libraries(profile_items ${OpenCL_LIBRARIES})
 
 add_executable(atomic ch07/atomic/atomic.c)
 target_link_libraries(atomic ${OpenCL_LIBRARIES})
+
+add_executable(wg_test ch10/wg_test/wg_test.c)
+target_link_libraries(wg_test ${OpenCL_LIBRARIES})
+
+add_executable(reduction ch10/reduction/reduction.c)
+target_link_libraries(reduction ${OpenCL_LIBRARIES})
+
+add_executable(reduction_complete ch10/reduction_complete/reduction_complete.c)
+target_link_libraries(reduction_complete ${OpenCL_LIBRARIES})
